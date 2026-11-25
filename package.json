@@ -1,0 +1,17 @@
+{
+  "name": "simple-file-lock",
+  "version": "0.1.0",
+  "description": "Node.js file lock that frees itself when the holding process exits.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {}
+}
